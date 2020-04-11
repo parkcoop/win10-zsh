@@ -1,0 +1,200 @@
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+
+    "profiles":
+    {
+        "defaults":
+        {
+            // Put settings here that you want to apply to all profiles
+        },
+        "list":
+        [
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "fontFace" : "MesloLGS NF", 
+                "fontSize" : 13, 
+                "padding": "8, 8, 8, 20",
+                "colorScheme": "One Half Dark",
+                "startingDirectory":"//wsl$/Ubuntu/home/pc",
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            },
+            { 
+                "tabTitle": "Git Bash",
+                "acrylicOpacity" : 1, 
+                "closeOnExit" : true, 
+                "colorScheme": "One Half Dark",
+                "commandline" : "C:/Program Files/Git/bin/bash.exe --login", 
+                "cursorColor" : "#FFFFFF", 
+                "cursorShape" : "bar", 
+                "fontFace" : "Consolas", 
+                "fontSize" : 12, 
+                "guid" : "{14ad203f-52cc-4110-90d6-d96e0f41b64d}", 
+                "historySize" : 9001, 
+                "icon": "ms-appdata:///roaming/git-bash_32px.ico",
+                "name" : "Git Bash", 
+                "padding" : "0, 0, 0, 0", 
+                "startingDirectory":"%USERPROFILE%",
+                
+                "snapOnInput" : true, 
+                "useAcrylic" : true 
+            },
+            {
+                // Make changes here to the powershell.exe profile
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": false
+            },
+            {
+                // Make changes here to the cmd.exe profile
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "cmd",
+                "commandline": "cmd.exe",
+                "hidden": false
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+   
+           
+        ]
+    },
+
+    // Add custom color schemes to this array
+    "schemes": [],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": [
+        {
+            "command": "closeTab",
+            "keys": [
+                "ctrl+w"
+            ]
+        },
+        {
+            "command": "closeWindow",
+            "keys": [
+                "ctrl+q"
+            ]
+        },
+        {
+            "command": "find",
+            "keys": [
+                "ctrl+f"
+            ]
+        },
+        {
+            "command": "newTab",
+            "keys": [
+                "ctrl+t"
+            ]
+        },
+        {
+            "command": "closePane",
+            "keys": [
+                "ctrl+w"
+            ]
+        },
+        {
+            "command": "moveFocusDown",
+            "keys": [
+                "ctrl+down"
+            ]
+        },
+        {
+            "command": "moveFocusUp",
+            "keys": [
+                "ctrl+up"
+            ]
+        },
+        {
+            "command": "moveFocusRight",
+            "keys": [
+                "ctrl+right"
+            ]
+        },
+        {
+            "command": "moveFocusLeft",
+            "keys": [
+                "ctrl+left"
+            ]
+        },
+        {
+            "command": "splitVertical",
+            "keys": [
+                "ctrl+shift+right"
+            ]
+        },
+        {
+            "command": "splitHorizontal",
+            "keys": [
+                "ctrl+shift+down"
+            ]
+        },
+        {
+            "command": "switchToTab0",
+            "keys": [
+                "ctrl+1"
+            ]
+        },
+        {
+            "command": "switchToTab1",
+            "keys": [
+                "ctrl+2"
+            ]
+        },
+        {
+            "command": "switchToTab2",
+            "keys": [
+                "ctrl+3"
+            ]
+        },
+        {
+            "command": "switchToTab3",
+            "keys": [
+                "ctrl+4"
+            ]
+        },
+        {
+            "command": "switchToTab4",
+            "keys": [
+                "ctrl+5"
+            ]
+        },
+        {
+            "command": "switchToTab5",
+            "keys": [
+                "ctrl+6"
+            ]
+        },
+        {
+            "command": "paste",
+            "keys": [
+                "ctrl+v"
+            ]
+        },
+        {
+            "command": "copy",
+            "keys": [
+                "ctrl+c"
+            ]
+        },
+        {
+            "command":"toggleFullscreen",
+            "keys": [
+                "ctrl+shift+f"
+            ]
+        }
+    ]
+}
