@@ -107,78 +107,6 @@
             ]
         },
         {
-            "command": "moveFocusDown",
-            "keys": [
-                "ctrl+down"
-            ]
-        },
-        {
-            "command": "moveFocusUp",
-            "keys": [
-                "ctrl+up"
-            ]
-        },
-        {
-            "command": "moveFocusRight",
-            "keys": [
-                "ctrl+right"
-            ]
-        },
-        {
-            "command": "moveFocusLeft",
-            "keys": [
-                "ctrl+left"
-            ]
-        },
-        {
-            "command": "splitVertical",
-            "keys": [
-                "ctrl+shift+right"
-            ]
-        },
-        {
-            "command": "splitHorizontal",
-            "keys": [
-                "ctrl+shift+down"
-            ]
-        },
-        {
-            "command": "switchToTab0",
-            "keys": [
-                "ctrl+1"
-            ]
-        },
-        {
-            "command": "switchToTab1",
-            "keys": [
-                "ctrl+2"
-            ]
-        },
-        {
-            "command": "switchToTab2",
-            "keys": [
-                "ctrl+3"
-            ]
-        },
-        {
-            "command": "switchToTab3",
-            "keys": [
-                "ctrl+4"
-            ]
-        },
-        {
-            "command": "switchToTab4",
-            "keys": [
-                "ctrl+5"
-            ]
-        },
-        {
-            "command": "switchToTab5",
-            "keys": [
-                "ctrl+6"
-            ]
-        },
-        {
             "command": "paste",
             "keys": [
                 "ctrl+v"
@@ -195,6 +123,118 @@
             "keys": [
                 "ctrl+shift+f"
             ]
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "keys": "ctrl+down"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "up"
+            },
+            "keys": "ctrl+up"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "keys": "ctrl+left"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "keys": "ctrl+right"
+        },
+        {
+            "command": {
+                "action": "resizePane",
+                "direction": "down"
+            },
+            "keys": "alt+shift+down"
+        },
+        {
+            "command": {
+                "action": "resizePane",
+                "direction": "up"
+            },
+            "keys": "alt+shift+up"
+        },
+        {
+            "command": {
+                "action": "resizePane",
+                "direction": "left"
+            },
+            "keys": "alt+shift+left"
+        },
+        {
+            "command": {
+                "action": "resizePane",
+                "direction": "right"
+            },
+            "keys": "alt+shift+right"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "horizontal"
+            },
+            "keys": "ctrl+shift+down"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "vertical"
+            },
+            "keys": "ctrl+shift+right"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 0
+            },
+            "keys": "ctrl+1"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 1
+            },
+            "keys": "ctrl+2"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 2
+            },
+            "keys": "ctrl+3"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 3
+            },
+            "keys": "ctrl+4"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 4
+            },
+            "keys": "ctrl+5"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 5
+            },
+            "keys": "ctrl+6"
         }
     ]
 }
